@@ -5,12 +5,13 @@
   - [Notes](#notes)
     - [Chapter 01 - Getting Started](#chapter-01---getting-started)
     - [Chapter 02 - CSS Styling](#chapter-02---css-styling)
+    - [Chapter 03 - Optimizing Fonts and Images](#chapter-03---optimizing-fonts-and-images)
 
 ## Chapters
 
 - [x] ~~_1. Getting Started_~~ [2024-03-08]
 - [x] ~~_2. CSS Styling_~~ [2024-03-08]
-- [ ] 3.  Optimizing Fonts and Images
+- [x] ~~_3. Optimizing Fonts and Images_~~ [2024-03-08]
 - [ ] 4.  Creating Fonts and Images
 - [ ] 5.  Navigating Between Pages
 - [ ] 6.  Setting Up Your Database
@@ -34,3 +35,8 @@
 ### Chapter 02 - CSS Styling
 
 - Next.js supports both Tailwind and CSS modules (`component.module.css`)
+
+### Chapter 03 - Optimizing Fonts and Images
+
+- Optimize fonts with `next/font/google` module; may require setting `subsets` and/or `weight` properties
+- Optimize images with `next/image` `<Image />` component. Explicitly set `width` and `height` attributes to minimize _CLS (Cumulative Layout Shift)_. Set `alt` attribute to improve a11y.
