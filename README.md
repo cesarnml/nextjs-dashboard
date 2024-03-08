@@ -9,6 +9,7 @@
     - [Chapter 04 - Creating Layouts and Pages](#chapter-04---creating-layouts-and-pages)
     - [Chapter 05 - Navigating Between Pages](#chapter-05---navigating-between-pages)
     - [Chapter 06 - Setting Up Your Database](#chapter-06---setting-up-your-database)
+    - [Chapter 07 - Fetching Data](#chapter-07---fetching-data)
 
 ## Chapters
 
@@ -82,3 +83,10 @@
 ### Chapter 06 - Setting Up Your Database
 
 - `@vercel/postgres` package to setup project with vercel postgres service
+
+### Chapter 07 - Fetching Data
+
+- **Route Handlers** are used to create API endpoints
+  - NOTE: _`route.ts` cannot be on the same level as a `page.ts`_
+- **React Server Components** support promises, enabling simple solutions for async task like data fetching.
+- Remember to use `Promise.all` or `Promise.allSettled` to avoid unnecessary **waterfall requests**
