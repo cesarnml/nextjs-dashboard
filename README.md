@@ -3,10 +3,11 @@
 - [Learn Next.js - Official Course](#learn-nextjs---official-course)
   - [Chapters](#chapters)
   - [Notes](#notes)
+    - [Chapter 01](#chapter-01)
 
 ## Chapters
 
-- [ ] 1.  Getting Started
+- [x] ~~_1. Getting Started_~~ [2024-03-08]
 - [ ] 2.  CSS Styling
 - [ ] 3.  Optimizing Fonts and Images
 - [ ] 4.  Creating Fonts and Images
@@ -24,3 +25,7 @@
 - [ ] 16. Adding Metadata
 
 ## Notes
+
+### Chapter 01
+
+- `pnpx create-next-app@latest` - starts interactive install wizard
