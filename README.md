@@ -8,6 +8,7 @@
     - [Chapter 03 - Optimizing Fonts and Images](#chapter-03---optimizing-fonts-and-images)
     - [Chapter 04 - Creating Layouts and Pages](#chapter-04---creating-layouts-and-pages)
     - [Chapter 05 - Navigating Between Pages](#chapter-05---navigating-between-pages)
+    - [Chapter 06 - Setting Up Your Database](#chapter-06---setting-up-your-database)
 
 ## Chapters
 
@@ -15,8 +16,8 @@
 - [x] ~~_2. CSS Styling_~~ [2024-03-08]
 - [x] ~~_3. Optimizing Fonts and Images_~~ [2024-03-08]
 - [x] ~~_4. Creating Layouts and Pages_~~ [2024-03-08]
-- [ ] 5.  Navigating Between Pages
-- [ ] 6.  Setting Up Your Database
+- [x] ~~_5. Navigating Between Pages_~~ [2024-03-08]
+- [x] ~~_6. Setting Up Your Database_~~ [2024-03-08]
 - [ ] 7.  Fetching Data
 - [ ] 8.  Static and Dynamic Rendering
 - [ ] 9.  Streaming
@@ -77,3 +78,7 @@
 
 - `<Link/>` component enables **client-side navigation**. Linked content is lazy loaded and prefetched in the background upon entering viewport.
 - `usePathname` to gain access to the _pathname_ (route path following the top-level domain)
+
+### Chapter 06 - Setting Up Your Database
+
+- `@vercel/postgres` package to setup project with vercel postgres service
