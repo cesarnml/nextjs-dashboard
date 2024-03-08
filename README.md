@@ -1,14 +1,15 @@
-# Learn Next.js - Official Course
+# Next.js - Official Learn Course
 
-- [Learn Next.js - Official Course](#learn-nextjs---official-course)
+- [Next.js - Official Learn Course](#nextjs---official-learn-course)
   - [Chapters](#chapters)
   - [Notes](#notes)
-    - [Chapter 01](#chapter-01)
+    - [Chapter 01 - Getting Started](#chapter-01---getting-started)
+    - [Chapter 02 - CSS Styling](#chapter-02---css-styling)
 
 ## Chapters
 
 - [x] ~~_1. Getting Started_~~ [2024-03-08]
-- [ ] 2.  CSS Styling
+- [x] ~~_2. CSS Styling_~~ [2024-03-08]
 - [ ] 3.  Optimizing Fonts and Images
 - [ ] 4.  Creating Fonts and Images
 - [ ] 5.  Navigating Between Pages
@@ -26,6 +27,10 @@
 
 ## Notes
 
-### Chapter 01
+### Chapter 01 - Getting Started
 
 - `pnpx create-next-app@latest` - starts interactive install wizard
+
+### Chapter 02 - CSS Styling
+
+- Next.js supports both Tailwind and CSS modules (`component.module.css`)
