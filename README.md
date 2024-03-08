@@ -10,6 +10,7 @@
     - [Chapter 05 - Navigating Between Pages](#chapter-05---navigating-between-pages)
     - [Chapter 06 - Setting Up Your Database](#chapter-06---setting-up-your-database)
     - [Chapter 07 - Fetching Data](#chapter-07---fetching-data)
+    - [Chapter 08 - Static and Dynamic Rendering](#chapter-08---static-and-dynamic-rendering)
 
 ## Chapters
 
@@ -19,9 +20,9 @@
 - [x] ~~_4. Creating Layouts and Pages_~~ [2024-03-08]
 - [x] ~~_5. Navigating Between Pages_~~ [2024-03-08]
 - [x] ~~_6. Setting Up Your Database_~~ [2024-03-08]
-- [ ] 7.  Fetching Data
-- [ ] 8.  Static and Dynamic Rendering
-- [ ] 9.  Streaming
+- [x] ~~_7. Fetching Data_~~ [2024-03-08]
+- [x] ~~_8. Static and Dynamic Rendering_~~ [2024-03-08]
+- [ ] _9. Streaming_
 - [ ] 10. Partial Prerendering (Optional)
 - [ ] 11. Adding Search and Pagination
 - [ ] 12. Mutating Data
@@ -90,3 +91,9 @@
   - NOTE: _`route.ts` cannot be on the same level as a `page.ts`_
 - **React Server Components** support promises, enabling simple solutions for async task like data fetching.
 - Remember to use `Promise.all` or `Promise.allSettled` to avoid unnecessary **waterfall requests**
+
+### Chapter 08 - Static and Dynamic Rendering
+
+- **Static rendering** is when data fetching is done at build time or during revalidation and the result is cached.
+  - Useful or UI with **no data** or **data that is shared across users**
+- **Dynamic rendering** is when data is fetched on the fly prior to rendering the UI
