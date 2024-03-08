@@ -7,6 +7,7 @@
     - [Chapter 02 - CSS Styling](#chapter-02---css-styling)
     - [Chapter 03 - Optimizing Fonts and Images](#chapter-03---optimizing-fonts-and-images)
     - [Chapter 04 - Creating Layouts and Pages](#chapter-04---creating-layouts-and-pages)
+    - [Chapter 05 - Navigating Between Pages](#chapter-05---navigating-between-pages)
 
 ## Chapters
 
@@ -71,3 +72,8 @@
     ```
 - **Layout** components allow for **partial rendering** of views (i.e. layout components don't rerender when navigating sub-routes only the page specific content changes. The layout render is shared across all its sub-pages/layouts.)
 - **RootLayout** (`/app/layout.tsx)`) is a required component in Next.js and serves as the project entry point.
+
+### Chapter 05 - Navigating Between Pages
+
+- `<Link/>` component enables **client-side navigation**. Linked content is lazy loaded and prefetched in the background upon entering viewport.
+- `usePathname` to gain access to the _pathname_ (route path following the top-level domain)
