@@ -11,6 +11,8 @@
     - [Chapter 06 - Setting Up Your Database](#chapter-06---setting-up-your-database)
     - [Chapter 07 - Fetching Data](#chapter-07---fetching-data)
     - [Chapter 08 - Static and Dynamic Rendering](#chapter-08---static-and-dynamic-rendering)
+    - [Chapter 09 - Streaming](#chapter-09---streaming)
+    - [Chapter 10 - Partial Prerendering](#chapter-10---partial-prerendering)
 
 ## Chapters
 
@@ -22,7 +24,7 @@
 - [x] ~~_6. Setting Up Your Database_~~ [2024-03-08]
 - [x] ~~_7. Fetching Data_~~ [2024-03-08]
 - [x] ~~_8. Static and Dynamic Rendering_~~ [2024-03-08]
-- [ ] _9. Streaming_
+- [x] ~~_*9. Streaming*_~~ [2024-03-08]
 - [ ] 10. Partial Prerendering (Optional)
 - [ ] 11. Adding Search and Pagination
 - [ ] 12. Mutating Data
@@ -97,3 +99,16 @@
 - **Static rendering** is when data fetching is done at build time or during revalidation and the result is cached.
   - Useful or UI with **no data** or **data that is shared across users**
 - **Dynamic rendering** is when data is fetched on the fly prior to rendering the UI
+
+### Chapter 09 - Streaming
+
+- Streaming is a data transfer technique that breaks down a route into "chunks" that progressively stream over to the client.
+  - TLDR. It's a way of preventing a slow request from preventing the entire page from loading.
+- Two ways to implement streaming:
+  - 1. At the page level via `loading.tsx` file
+  - 2. At the component level via `<Suspense>` component
+- Allows for **interruptable navigation**
+- **Route groups** (e.g. `(dashboard)`) can be used to limit the scope of loading components
+- _QUESTION_: Does SvelteKit have the ability to stream at the component level? I think not. It only has streaming at the page level
+
+### Chapter 10 - Partial Prerendering
