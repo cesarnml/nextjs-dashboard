@@ -1,6 +1,6 @@
-# Learn Next.js - Official Tutorial
+# Learn Next.js - Official Course
 
-- [Learn Next.js - Official Tutorial](#learn-nextjs---official-tutorial)
+- [Learn Next.js - Official Course](#learn-nextjs---official-course)
   - [Chapters](#chapters)
   - [Notes](#notes)
 
