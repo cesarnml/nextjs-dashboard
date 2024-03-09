@@ -13,6 +13,7 @@
     - [Chapter 08 - Static and Dynamic Rendering](#chapter-08---static-and-dynamic-rendering)
     - [Chapter 09 - Streaming](#chapter-09---streaming)
     - [Chapter 10 - Partial Prerendering](#chapter-10---partial-prerendering)
+    - [Chapter 11 - Adding Search and Pagination](#chapter-11---adding-search-and-pagination)
 
 ## Chapters
 
@@ -25,7 +26,7 @@
 - [x] ~~_7. Fetching Data_~~ [2024-03-08]
 - [x] ~~_8. Static and Dynamic Rendering_~~ [2024-03-08]
 - [x] ~~_*9. Streaming*_~~ [2024-03-08]
-- [ ] 10. Partial Prerendering (Optional)
+- [x] ~~_10. Partial Prerendering (Optional)_~~ [2024-03-09]
 - [ ] 11. Adding Search and Pagination
 - [ ] 12. Mutating Data
 - [ ] 13. Handling Errors
@@ -112,3 +113,7 @@
 - _QUESTION_: Does SvelteKit have the ability to stream at the component level? I think not. It only has streaming at the page level
 
 ### Chapter 10 - Partial Prerendering
+
+- **Partial Prerendering** is essentially Astro's island architecture (still in pre-release mode)
+
+### Chapter 11 - Adding Search and Pagination
