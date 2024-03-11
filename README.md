@@ -117,3 +117,11 @@
 - **Partial Prerendering** is essentially Astro's island architecture (still in pre-release mode)
 
 ### Chapter 11 - Adding Search and Pagination
+
+- Advantages of using **URL search params** as state:
+  - **Bookmarkable and Shareable URLs**
+  - URL search params **can be consumed by the server** to facilitate server rendering
+  - Analytics and Tracking
+- `useSearchParams` let's you consume URL search params on the server
+- `usePathname` let's you consume the URL path (i.e. url segment after top-level domain and before query string)
+- `useRouter` to enable client-side routing
