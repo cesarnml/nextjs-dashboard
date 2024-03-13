@@ -6,14 +6,12 @@ import { ChangeEvent } from 'react';
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams();
-  console.log('searchParams:', searchParams);
   const pathname = usePathname();
   const { replace } = useRouter();
 
-  console.log('output', searchParams.get('query')?.toString());
   function onSearch(e: ChangeEvent<HTMLInputElement>) {
     const params = new URLSearchParams(searchParams);
-    console.log('e.target.value:', e.target.value);
+    console.log(`Searching... ${e.target.value}`);
     if (e.target.value) {
       params.set('query', e.target.value);
     } else {
